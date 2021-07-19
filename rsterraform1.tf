@@ -1,8 +1,8 @@
-resource "azurerm_resource_group_raitest" "raitest" {
-  name     = "raitest"
-  location = "West Europe"
-
-  tags{
-      environment="Production"
+resource "azurerm_resource_group" "test" {
+  name     = "raitest123"
+  location = "West US"
+  tags
+  {
+    environment="Development"
   }
-}
+ }
